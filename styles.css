@@ -1,7 +1,7 @@
 body {
     background-color: orangered;
     margin: 0;
-    font-family: rubik;
+    font-family: cursive;
     color: white;
   }
   
@@ -13,7 +13,8 @@ body {
   h1 {
     text-transform: uppercase;
     text-align: center;
-    font-size: 54px;
+    font-size: 100px;
+    font-family: rubik;
   }
   
   .card {
@@ -22,6 +23,7 @@ body {
     background-color: #f4f4f4;
     color: #222;
     text-align: center;
+    border-radius: 10px;
   }
   
   .card-title {
@@ -49,7 +51,7 @@ body {
   }
   
   .card:hover {
-    animation: bounce 0.5s linear;
+    animation: bounce 0.8s linear;
   }
   
   @keyframes bounce {
