@@ -23,13 +23,13 @@ body {
 }
 
 .card {
-  list-style: none;
   padding: 20px;
   background-color: #f4f4f4;
   color: #222;
   text-align: center;
   border-radius: 10px;
   opacity: 0.95;
+  list-style: none;
 }
 
 .card-title {
@@ -48,6 +48,7 @@ body {
 .card-image {
   height: 100px;
 }
+
 .card-image:hover {
   transform: scale(1.2);
 }
@@ -62,9 +63,7 @@ body {
 
 .card:hover {
   animation: bounce 0.8s linear;
-  
 }
-
 
 
 @keyframes bounce {

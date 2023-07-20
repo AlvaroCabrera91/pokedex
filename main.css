@@ -22,13 +22,13 @@ body {
 }
 
 .card {
-  list-style: none;
   padding: 20px;
   background-color: #f4f4f4;
   color: #222;
   text-align: center;
   border-radius: 10px;
   opacity: 0.95;
+  list-style: none;
 }
 
 .card-title {
