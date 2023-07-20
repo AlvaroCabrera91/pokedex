@@ -16,12 +16,14 @@ document.addEventListener("DOMContentLoaded", function () {
         
         displayPokemon(pokemon);
       }
+
+      window.AOS.init()
     }
   
     function displayPokemon(pokemon) {
       const carta = document.createElement("li");
       carta.classList.add("card");
-      // carta.setAttribute("data-aos", "flip-right");
+      carta.setAttribute("data-aos", "flip-right");
       
   
       const cardTitulo = document.createElement("h2");
