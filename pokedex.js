@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const dato = await response.json();
         const pokemon = {
           name: dato.name,
-          image: dato.sprites.front_default,
+          image: dato.sprites.versions["generation-v"]["black-white"].animated.front_default,
           type: dato.types.map((type) => type.type.name).join(", "),
           id: dato.id
         };
